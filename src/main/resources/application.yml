@@ -1,0 +1,15 @@
+spring:
+  cache:
+    type: redis
+  redis:
+    database: 0
+    host: localhost
+    password:
+    port: 6379
+    pool:
+      maxActive: 8
+      maxWait: 8
+      minIdle: 0
+      maxIdle: 8
+
+
